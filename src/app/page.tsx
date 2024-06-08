@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import Loading from './components/loading';
+import Loading from './components/loading/loading';
 import styles from './page.module.css';
 
 export default function Home() {
@@ -13,7 +13,7 @@ export default function Home() {
   }, []);
   return (
     <div className={styles.mainWrapper}>
-      {isLoading ? <div>hi</div> : <Loading />}
+      {isLoading ? <Loading /> : <div>hi</div>}
     </div>
   );
 }
