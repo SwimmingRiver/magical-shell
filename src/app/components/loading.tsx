@@ -1,9 +1,10 @@
 import React from 'react';
 import Image from 'next/image';
+import styles from './loading.module.css';
 
 function Loading() {
   return (
-    <div style={{ backgroundColor: '#a56bdb' }}>
+    <div className={styles.loadingBackground}>
       <Image src="/images/sea-snail.png" alt="logo" width={500} height={500} />
       <div
         style={{
@@ -12,7 +13,7 @@ function Loading() {
           justifyContent: 'center',
         }}
       >
-        <p>magical shell</p>
+        <p className={styles.loadingTitle}>MAGICAL SHELL</p>
       </div>
     </div>
   );
