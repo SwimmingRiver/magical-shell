@@ -1,9 +1,19 @@
-import Image from 'next/image';
+'use client';
+
+import { useEffect, useState } from 'react';
+import Loading from './components/loading/loading';
+import styles from './page.module.css';
 
 export default function Home() {
+  const [isLoading, setIsLoading] = useState(true);
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 3000);
+  }, []);
   return (
-    <div style={{ backgroundColor: '#a56bdb' }}>
-      <Image src="/images/sea-snail.png" alt="logo" width={500} height={500} />
+    <div className={styles.mainWrapper}>
+      {isLoading ? <Loading /> : <div>hi</div>}
     </div>
   );
 }

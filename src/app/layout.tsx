@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Magical Shell',
-  description: 'Blow your truoble to the sir.magical shell',
+  description: 'Blow your truoble to the Sir.magical shell',
 };
 
 export default function RootLayout({

@@ -1,0 +1,14 @@
+.loadingTitle {
+  font-size: 30px;
+  padding-top: 50px;
+  color: yellow;
+}
+.loadingBackground {
+  background-color: #a56bdb;
+  width: 100dvw;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
