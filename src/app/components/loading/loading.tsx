@@ -7,7 +7,7 @@ function Loading() {
   return (
     <div className={styles.loadingBackground}>
       <Fireworks autorun={{ speed: 1 }} />
-      <Image src="/images/sea-snail.png" alt="logo" width={500} height={500} />
+      <Image src="/images/sea-snail.png" alt="logo" width={200} height={200} />
       <div
         style={{
           display: 'flex',
