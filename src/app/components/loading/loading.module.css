@@ -4,7 +4,7 @@
   color: yellow;
 }
 .loadingBackground {
-  background-color: #a56bdb;
+  background-color: var(--main-color);
   width: 100dvw;
   height: 100dvh;
   display: flex;
