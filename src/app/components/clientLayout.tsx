@@ -12,11 +12,9 @@ export default function ClientLayout({
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    const timer = setTimeout(() => {
+    setTimeout(() => {
       setIsLoading(false);
-    }, 3000); // 로딩 시간 설정
-
-    return () => clearTimeout(timer);
+    }, 3000);
   }, []);
 
   return (
