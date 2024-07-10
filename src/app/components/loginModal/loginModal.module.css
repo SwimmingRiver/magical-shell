@@ -1,0 +1,29 @@
+.wrapper {
+  border: solid 1px black;
+  width: 100dvw;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.no_login {
+  color: #ababab;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  height: 140px;
+  width: 210px;
+  justify-content: space-around;
+}
+.modal_wrapper {
+  height: 40dvh;
+  width: 50dvw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 12px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
