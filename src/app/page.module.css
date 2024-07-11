@@ -1,7 +1,22 @@
 .mainWrapper {
   display: flex;
   justify-content: center;
-  align-items: center;
+
   width: 100dvw;
   height: 100dvh;
+}
+
+.messageWrapper {
+  background-color: #e3f0f8;
+  width: 100dvw;
+  height: 92dvh;
+}
+
+.input {
+  width: 90dvw;
+  height: 5dvh;
+}
+.inputWrapper {
+  display: flex;
+  background-color: #4c4452;
 }
