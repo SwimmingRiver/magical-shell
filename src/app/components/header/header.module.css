@@ -1,3 +1,14 @@
 .header {
-  background-color: var('--main-color');
+  background-color: var(--main-color);
+  height: 4dvh;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  padding: 4px;
+  justify-content: space-between;
+}
+.menu {
+  cursor: pointer;
 }
